@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.niklasnaumann.javafx-paint</groupId>
+    <groupId>com.github.niklasnaumann.paint</groupId>
     <artifactId>javafx-paint</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -40,10 +40,10 @@
                     <compress>2</compress>
                     <noHeaderFiles>true</noHeaderFiles>
                     <noManPages>true</noManPages>
-                    <launcher>javafx-paint</launcher>
-                    <jlinkImageName>exjavafx-paintample</jlinkImageName>
-                    <jlinkZipName>javafx-paint</jlinkZipName>
-                    <mainClass>javafx-paint.Main</mainClass>
+                    <launcher>paint</launcher>
+                    <jlinkImageName>paint</jlinkImageName>
+                    <jlinkZipName>paint</jlinkZipName>
+                    <mainClass>paint.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
